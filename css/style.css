@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* HEADER STYLE  */
 header{
     display: flex;
     flex-direction: row;
@@ -29,6 +30,16 @@ header{
     transform: scale(.9);
     cursor: pointer;
 }
+/* FIM HEADER */
+
+/*  MAIN STYLE */
 body{
     background-color: #28293C;
+    max-width: 1200px;
+    padding: 15px ;
 }
+
+.container{
+    display: flex;
+}
+
