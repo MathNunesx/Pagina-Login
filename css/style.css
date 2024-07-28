@@ -7,11 +7,47 @@
 /*  MAIN STYLE */
 body{
     background-color: #28293C;
-    max-width: 1200px;
-    padding: 15px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
 }
 
 .container{
     display: flex;
-    padding: 70px;
+    gap: 90px;
+    border: solid 2px #ffff;
+    padding: 80px;
 }
+
+.login .btn_switch{
+    display: flex;
+    justify-content: right;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.trilho{
+    position: relative;
+    display: inline-block;
+    width: 65px;
+    height: 30px;
+    background-color: azure;
+    border-radius: 150px;
+}
+
+.trilho .bolinha{
+    width: 30px;
+    height: 30px;
+    background-color: #15b0bb;
+    border-radius: 50%;
+    transform: scale(.9);
+    cursor: pointer;
+}
+
+
+
