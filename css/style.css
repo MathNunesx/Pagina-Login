@@ -21,10 +21,41 @@ body{
 
 .container{
     display: flex;
-    gap: 90px;
+    gap: 20px;
     /* border: solid 2px #ffff; */
     padding: 80px;
     /* background-color: #202131; */
+}
+
+.music{
+    display: flex;
+    flex-direction: column;
+}
+
+.music h1{
+    font-size: 40px;
+    color: #cbcecc;
+    font-weight: 400;
+    text-shadow: #020202 0px 0px 5px; 
+    text-align: center;
+}
+
+.music h2{
+    font-size: 50px;
+    color: #12E08A;
+    font-weight: 400;
+    text-shadow: #020202 0px 0px 5px; 
+    text-align: center;
+}
+
+.img img{
+    width: 600px;
+    filter: drop-shadow(0px 0px 5px #12e08a);
+}
+
+.img img:hover{
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 .login .btn_switch{
@@ -51,7 +82,7 @@ body{
 .trilho .bolinha{
     width: 30px;
     height: 30px;
-    background-color: #28293C;
+    background-color: #12E08A;
     border-radius: 50%;
     transform: scale(.9);
     cursor: pointer;
