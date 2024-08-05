@@ -21,10 +21,7 @@ body{
 
 .container{
     display: flex;
-    gap: 20px;
-    /* border: solid 2px #ffff; */
-    padding: 80px;
-    /* background-color: #202131; */
+    gap: 40px;
 }
 
 .music{
@@ -66,15 +63,7 @@ body{
     padding-bottom: 40px;
 }
 
-.login{
-    display: flex;
-    flex-direction: column;
-    /* border: solid 2px #ffffff; */
-    padding: 70px;
-    background-color: #12e08a;
-    border-radius: 25px;
-    box-shadow: #0f0f0f 0px 0px 20px;
-}
+
 
 .trilho{
     position: relative;
@@ -99,11 +88,25 @@ body{
     font-size: 40px;
     text-align: center;
     text-shadow: 0px 0px 10px #0f0f0f;
+    padding-bottom: 30px;
+}
+
+.login{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #12E08A; */
+    /* border-radius: 40px */
 }
 
 .formulario{
     display: flex;
     flex-direction: column;
-    padding: 80px;
+    gap: 30px;
 }
 
+.input-box label{
+    font-size: 20px;
+    color: #12E08A;
+    font-weight: 400;
+}
