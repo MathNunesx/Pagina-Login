@@ -90,9 +90,32 @@ body{
 }
 
 .input-slot{
-    
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    background-color: #28293C;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 3px;
+    width: 250px;
 }
 
+.input-slot input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    color: #cbcecc;
+}
+
+.input-slot input::-webkit-outer-spin-button,
+.input-slot input::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+.input-slot input:focus{
+    outline: none;
+}
 /* .box_sign .btn_switch{
     display: flex;
     justify-content: right;
