@@ -116,6 +116,25 @@ body{
 .input-slot input:focus{
     outline: none;
 }
+
+.icon{
+    cursor: pointer;
+}
+
+.with{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.with h2{
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.redes img{
+    width: 40px;
+}
 /* .box_sign .btn_switch{
     display: flex;
     justify-content: right;
