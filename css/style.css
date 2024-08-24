@@ -28,7 +28,6 @@ body{
 .music{
     display: flex;
     flex-direction: column;
-    padding-bottom: 100px;
 }
 
 .box_sign{
@@ -134,11 +133,9 @@ body{
     cursor: pointer;
 }
 
-#entrar span{
-
-}
 #entrar:hover{
-    
+    border: solid white 2px;
+    color: #12e08a;
 }
 
 .with{
